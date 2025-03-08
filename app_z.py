@@ -4,7 +4,7 @@ import streamlit as st
 models = {
     "SVM Binary": joblib.load("svm_binary.pkl"),
     "SVM Multi": joblib.load("/home/teddy/Music/DS/model_app/svm_multi.pkl"),
-    "Logistic Binary": joblib.load("/home/teddy/Music/DS/model_app/logistics_binary.pkl"),
+    "Logistic Binary": joblib.load("logistics_binary.pkl"),
     "Logistic Multi (OVR)": joblib.load("logistics_ovr.pkl"),
     "Logistic Multi (Multinomial)": joblib.load("logistics_multinomial.pkl")
 }
