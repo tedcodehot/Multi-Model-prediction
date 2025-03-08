@@ -6,7 +6,7 @@ models = {
     "SVM Multi": joblib.load("/home/teddy/Music/DS/model_app/svm_multi.pkl"),
     "Logistic Binary": joblib.load("/home/teddy/Music/DS/model_app/logistics_binary.pkl"),
     "Logistic Multi (OVR)": joblib.load("/home/teddy/Music/DS/model_app/logistics_ovr.pkl"),
-    "Logistic Multi (Multinomial)": joblib.load("/home/teddy/Music/DS/model_app/logistics_multinomial.pkl")
+    "Logistic Multi (Multinomial)": joblib.load("logistics_multinomial.pkl")
 }
 
 st.title("Multi Model Prediction")
